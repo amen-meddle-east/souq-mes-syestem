@@ -828,7 +828,7 @@ const channel = rWlc[message.guild.id].role
 
 client.on("guildMemberAdd", member => {
       if(!rWlc[member.guild.id]) rWlc[member.guild.id] = {
-    role: "member"
+    role: "»الخميس افتتاح"
   }
   const Role = rWlc[member.guild.id].role
     const sRole = rWlc[member.guild.id].role
